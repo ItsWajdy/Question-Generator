@@ -39,6 +39,8 @@ class QuestionFormation:
 
 
 
+
+
     def form_questions(self,candidates):
         """Ques formation
         - Args:
