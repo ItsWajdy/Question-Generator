@@ -108,7 +108,9 @@ class QuestionFormation:
             df = {}
             print (" ")
         print ("new final output :")
-        print (candidates1)
+        for df in candidates1:
+            print(df)
+            print('-----------------')
         return candidates1
 
 

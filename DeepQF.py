@@ -193,7 +193,7 @@ class Actual_Question_Formation:
         # TODO add rule for who is Barack Obama
         for word,pos in tagged:
             # to check is word is in answer
-            if ((answer.find(word)) >= 0):
+            #if ((answer.find(word)) >= 0):
                 #to check if blank is in starting
                 if (flag==0) and ((sentence.find(word))==0):
                     if ((('NN' == pos) or ('NNP' == pos) or ('NNPS' == pos)) and "PERSON" in jsondata.keys()) and (str(" " + word + " ") in jsondata['PERSON']):
@@ -210,11 +210,12 @@ class Actual_Question_Formation:
                         full_ques = full_ques +"?"
                         flag=1
 
+
                 if (flag==0 and (len(pattern_strings)>0)):
                     for pattern_string_no in range(len(pattern_strings)):
                         if ((('NN' == pos) or ('NNP' == pos) or ('NNPS' == pos)) and "PERSON" in jsondata.keys()) and (str(" " + word + " ") in jsondata['PERSON']):
                             individual_words = pattern_strings[pattern_string_no].split()
-                            verb = [word for word in individual_words if str(" " + word + " ") not in jsondata['PERSON']]
+                            verb = [word for word in individual_words if str(" " + word.lower() + " ") not in jsondata['PERSON']]
                             print ("Verb : ", str(verb))
                             print ("pattern_strings[pattern_string_no] : " , str(pattern_strings[pattern_string_no]) )
                             full_ques = sentence.replace(str(pattern_strings[pattern_string_no]), '')
@@ -245,6 +246,7 @@ class Actual_Question_Formation:
                                     ans = ps.stem(word)
                                     # print "word : " + word + "  pos : " + pos
                                     flag=1
+
 
 
         new_full_ques.append(full_ques)

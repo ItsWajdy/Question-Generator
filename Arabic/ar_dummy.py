@@ -6,7 +6,7 @@ from stanfordcorenlp import StanfordCoreNLP
 
 #Arabic
 """
-java -Xmx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -serverProperties StanfordCoreNLP-arabic.properties -preload tokenize,ssplit,pos,parse -status_port 1234  -port 1234 -timeout 20000
+java -Xmx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -serverProperties StanfordCoreNLP-arabic.properties -preload tokenize,ssplit,pos,parse -status_port 1234  -port 1234 -timeout 25000
 
 """
 
@@ -16,31 +16,31 @@ sent_selection = SentenceSelection()
 important_sents = sent_selection.prepare_sentences('arabic.txt')
 print('important sentences len : ' , len(important_sents))
 
-parser = StanfordCoreNLP(r'C:\Program Files\Stanford CoreNLP\stanford-corenlp-full-2018-10-05', lang='ar')
-
-
+# parser = StanfordCoreNLP(r'C:\Program Files\Stanford CoreNLP\stanford-corenlp-full-2018-10-05', lang='ar')
+#
+#
 
 #
-# port = 1234
-# gap_selection = GapSelection(port)
-# candidates = gap_selection.get_candidates(important_sents)
-# print('candidates len : ' , len(candidates))
-# for cand in candidates:
-#     print(cand['Question'])
-#     print(cand['Answer'])
-#     print('---------------------')
+port = 1234
+gap_selection = GapSelection(port)
+candidates = gap_selection.get_candidates(important_sents)
+print('candidates len : ' , len(candidates))
+for cand in candidates:
+    print(cand['Question'])
+    print(cand['Answer'])
+    print('---------------------')
 
 
 # parser = CoreNLPParser('http://localhost:' + str(1234))
 #
-for id , sent in important_sents.items():
-    print(sent)
-    tree = parser.parse(sent)
-    for t in tree:
-        print(t)
-    print(tree)
-    print('----------------')
-
+# for id , sent in important_sents.items():
+#     print(sent)
+#     tree = parser.parse(sent)
+#     for t in tree:
+#         print(t)
+#     print(tree)
+#     print('----------------')
+#
 
 
 """
