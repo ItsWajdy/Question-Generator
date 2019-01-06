@@ -58,7 +58,7 @@ class Actual_Question_Formation:
 
         if "Chunk" in chunk.keys():
             pattern_string = chunk["Chunk"]
-            #print ("pattern_string  :  ", str(pattern_string))
+            print ("pattern_string  :  ", str(pattern_string))
         else:
             pattern_string = ""
         return pattern_string
@@ -79,7 +79,7 @@ class Actual_Question_Formation:
             # which are stored in tuples
             input_chunked = ""
             if isinstance(st, nltk.Tree):
-                #print(len(st))
+                print(len(st))
                 input_chunked = ""
                 for d in range(len(st)):
                     # print "input__chunked"+input_chunked
@@ -95,9 +95,9 @@ class Actual_Question_Formation:
 
                 # else:
 
-                #print(st.label())
+                print(st.label())
                 tree_dict["Chunk"+str(chunk_count)] = input_chunked
-        #print(tree_dict)
+        print(tree_dict)
         return tree_dict
 
 
@@ -125,7 +125,7 @@ class Actual_Question_Formation:
 
                 pattern_string = chunk["Chunk"+str(chunk_no+1)]
                 pattern_strings.append(pattern_string)
-                #print ("pattern_string  :  ", str(pattern_string))
+                print ("pattern_string  :  ", str(pattern_string))
 
         return pattern_strings
 
@@ -158,7 +158,7 @@ class Actual_Question_Formation:
         chunkParser = nltk.RegexpParser(chunkGram)
         chunked = chunkParser.parse(tagged)
         # print("Here we are")
-        #print(chunked)
+        print(chunked)
         # chunked.draw()
         # chunked = nltk.ne_chunk(tagged)
         chunk = self.tree_to_dict(chunked)
@@ -168,7 +168,7 @@ class Actual_Question_Formation:
 
                 pattern_string = chunk["Chunk"+str(chunk_no+1)]
                 pattern_strings.append(pattern_string)
-                #print ("pattern_string  :  ", str(pattern_string))
+                print ("pattern_string  :  ", str(pattern_string))
 
         return pattern_strings, verbs, nouns
 
@@ -216,28 +216,28 @@ class Actual_Question_Formation:
                         if ((('NN' == pos) or ('NNP' == pos) or ('NNPS' == pos)) and "PERSON" in jsondata.keys()) and (str(" " + word + " ") in jsondata['PERSON']):
                             individual_words = pattern_strings[pattern_string_no].split()
                             verb = [word for word in individual_words if str(" " + word.lower() + " ") not in jsondata['PERSON']]
-                            #print ("Verb : ", str(verb))
-                            #print ("pattern_strings[pattern_string_no] : " , str(pattern_strings[pattern_string_no]) )
+                            print ("Verb : ", str(verb))
+                            print ("pattern_strings[pattern_string_no] : " , str(pattern_strings[pattern_string_no]) )
                             full_ques = sentence.replace(str(pattern_strings[pattern_string_no]), '')
                             full_ques = "What " + str(verb[0]) + " " + str(full_ques).lower() + "?"
-                            #print( "word : " + word + "  pos : " + pos)
+                            print( "word : " + word + "  pos : " + pos)
                             flag=1
 
                 if (flag==0):
                     pattern_strings,verbs,nouns = self.pattern_verb_dt_adj_noun(candidate['Sentence'],jsondata)
-                    #print ("pattern_strings : ")
-                    #print (pattern_strings)
+                    print ("pattern_strings : ")
+                    print (pattern_strings)
                     if (len(pattern_strings)>0):
                         if ("LOCATION" in jsondata.keys() and (str(" " + word + " ") in jsondata['LOCATION'])) or ("GPE" in jsondata.keys() and (str(" " + word + " ")in jsondata['GPE'])):
                             for pattern_string_no in range(len(pattern_strings)):
                                 if (pattern_strings[pattern_string_no].find(answer)>=0):
-                                    #print ("pattern_string_no : ", pattern_string_no)
+                                    print ("pattern_string_no : ", pattern_string_no)
                                     individual_words = pattern_strings[pattern_string_no].split()
-                                    #print ("individual_words :")
-                                    #print (individual_words)
+                                    print ("individual_words :")
+                                    print (individual_words)
                                     verb = [word for word in individual_words if word in verbs]
-                                    #print ("Verb : ", str(verb))
-                                    #print ("pattern_strings[pattern_string_no] : ", pattern_strings[pattern_string_no])
+                                    print ("Verb : ", str(verb))
+                                    print ("pattern_strings[pattern_string_no] : ", pattern_strings[pattern_string_no])
                                     full_ques = sentence.replace( pattern_strings[pattern_string_no] , '')
                                     full_ques = "Where " + str(verb[0]) + " " + str(full_ques).lower() + "?"
 

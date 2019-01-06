@@ -1,7 +1,10 @@
 from sentences_selection import SentenceSelection
 from gap_selection import GapSelection
+from question_formation import QuestionFormation
 from nltk.parse import CoreNLPParser
 from stanfordcorenlp import StanfordCoreNLP
+from nltk.tag import StanfordNERTagger , StanfordPOSTagger
+import nltk
 
 
 #Arabic
@@ -16,19 +19,46 @@ sent_selection = SentenceSelection()
 important_sents = sent_selection.prepare_sentences('arabic.txt')
 print('important sentences len : ' , len(important_sents))
 
-# parser = StanfordCoreNLP(r'C:\Program Files\Stanford CoreNLP\stanford-corenlp-full-2018-10-05', lang='ar')
+#parser = StanfordCoreNLP(r'C:\Program Files\Stanford CoreNLP\stanford-corenlp-full-2018-10-05', lang='ar')
+nlp = StanfordCoreNLP('http://localhost', port=1234, timeout=30000)
+props = {
+            'annotators': 'tokenize,ssplit,pos,ner',
+            'pipelineLanguage': 'ar'
+        }
+
+sent = 'باراك أوباما واسمه الكامل باراك حسين أوباما الابن هو الرئيس الرابع والأربعون للولايات المتحدة الأمريكية'
+print(nlp.annotate(sent,properties=props))
 #
+# sett =  ['wajdy ivan wajdy' , 'ivan' , 'ivan ivan']
+# sett = sorted(sett , key = lambda x:len(x) , reverse=True)
+# final = []
+# flag = False
+# for li in sett:
+#     for sent in final:
+#         if sent.find(li) >= 0 :
+#             flag = True
+#     if not flag:
+#         final.append(li)
+#     flag = False
+#
+# print(final)
 #
 
 #
-port = 1234
-gap_selection = GapSelection(port)
-candidates = gap_selection.get_candidates(important_sents)
-print('candidates len : ' , len(candidates))
-for cand in candidates:
-    print(cand['Question'])
-    print(cand['Answer'])
-    print('---------------------')
+# port = 1234
+# gap_selection = GapSelection(port)
+# candidates = gap_selection.get_candidates(important_sents)
+# print('candidates len : ' , len(candidates))
+
+# for cand in candidates:
+#     print(cand['Question'])
+#     print(cand['Answer'])
+#     print(cand['Score'])
+#     print('---------------------')
+#
+
+# qf = QuestionFormation()
+# qf.form_questions(candidates)
 
 
 # parser = CoreNLPParser('http://localhost:' + str(1234))
@@ -40,7 +70,7 @@ for cand in candidates:
 #         print(t)
 #     print(tree)
 #     print('----------------')
-#
+
 
 
 """
