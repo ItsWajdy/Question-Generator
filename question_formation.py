@@ -2,13 +2,15 @@
 import re, nltk
 import pandas as pd
 from DeepQF import Actual_Question_Formation
+from nltk.parse.corenlp import CoreNLPParser
 #nltk.download('maxent_ne_chunker')
 #nltk.download('words')
 
 class QuestionFormation:
 
-    def __init__(self):
-        pass
+    def __init__(self , port):
+        self.port = port
+
 
     def tree_to_dict(self, tree):
         """
@@ -29,9 +31,9 @@ class QuestionFormation:
                     input_chunked = input_chunked + st[d][0] + " "
 
                 if st.label() in tree_dict:
-                    print(" before : ",tree_dict[st.label()])
+                    #print(" before : ",tree_dict[st.label()])
                     tree_dict[st.label()] = tree_dict[st.label()] + " " +input_chunked
-                    print(" after : ",tree_dict[st.label()])
+                    #print(" after : ",tree_dict[st.label()])
 
                 else:
                     tree_dict[st.label()] = input_chunked
@@ -52,7 +54,7 @@ class QuestionFormation:
         candidates = pd.DataFrame(candidates)
         deepqf = Actual_Question_Formation()
 
-        print("From Ques formatrion")
+        #print("From Ques formatrion")
 
         candidates1 = []
         df = {}
@@ -65,11 +67,11 @@ class QuestionFormation:
             tokens = nltk.word_tokenize(str(candidate['Sentence']))
             tagged = nltk.pos_tag(tokens)
             ne_chunk = nltk.ne_chunk(tagged)
-            print('ne chunk: \n')
-            print(ne_chunk)
+            #print('ne chunk: \n')
+            #print(ne_chunk)
 
             chunk_dict = self.tree_to_dict(ne_chunk)
-            print(chunk_dict)
+            #print(chunk_dict)
 
             full_ques, ans, flag = deepqf.form_full_questions(candidate,chunk_dict,tagged)
             print ("full_ques is " )
@@ -106,9 +108,11 @@ class QuestionFormation:
             if len(df.items()) != 0:
                 candidates1.append(df)
             df = {}
-            print (" ")
-        print ("new final output :")
-        print (candidates1)
+            #print (" ")
+        #print ("new final output :")
+        #for df in candidates1:
+            #print(df)
+            #print('-----------------')
         return candidates1
 
 

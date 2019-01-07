@@ -2,12 +2,14 @@
 from nltk.parse import CoreNLPParser
 from stanfordcorenlp import StanfordCoreNLP
 from nltk.corpus import stopwords
+from nltk import Tree
 
 class GapSelection:
 
     def __init__(self , port):
         self.port = port
         self.parser = CoreNLPParser('http://localhost:' + str(self.port))
+
 
     def _parse(self, sentence):
         """Parse sentence into an syntatic tree
@@ -18,6 +20,19 @@ class GapSelection:
         """
         parsed_sentence = list(self.parser.raw_parse((sentence)))
         return parsed_sentence
+
+
+
+    def get_score(self,gap ,tree):
+        entities = list(map(lambda x: list(x.subtrees()), tree))
+        score = 0
+        score_dict = {'DT' : -1 , 'CD' : 1}
+        for e in entities:
+            for t in e:
+                if t.label() in score_dict.keys():
+                    score += score_dict[t.label()]
+        score += len(gap)
+        return score
 
     def _extract_gaps(self, sentence, tree):
         """Extract nouns, np, adjp from tree object
@@ -34,25 +49,50 @@ class GapSelection:
         entities = list(map(lambda x: list(x.subtrees(
             filter=lambda x: x.label() in entities)), tree))[0]
 
-        stop_words = stopwords.words('arabic')
-
+        parsed_sentence = list(map(lambda x: list(x.subtrees()), tree))[0]
+        parsed_sentence = ' '.join(parsed_sentence[0].leaves())
+        
+        
+        tmp_entities = []
         for entity in entities:
             if len(entity.leaves()) > 5:
                 continue
-            candidate_gap = str(' '.join(entity.leaves()))
+            gap = str(' '.join(entity.leaves()))
+            tmp_entities.append(gap)
+
+        final_entities = []
+        flag = False
+        for ent in tmp_entities:
+            for sent in final_entities:
+                if sent.find(ent) >= 0 :
+                    flag = True
+            if not flag:
+                final_entities.append(ent)
+            flag = False
+
+        for entity in entities:
+            gap = str(' '.join(entity.leaves()))
+            if gap not in final_entities:
+                continue
+            score = self.get_score(gap , entity)
+            candidate_gap = gap
             sentence_copy = sentence
             # replace sentence candidate_gap with ___
             sentence_copy = sentence_copy.replace(candidate_gap, '_____')
             candidate['Sentence'] = sentence
             candidate['Question'] = sentence_copy
             candidate['Answer'] = candidate_gap
+            candidate['Score'] = score
             if candidate_gap.strip() != sentence.strip():
                 candidates.append(candidate)
             candidate = {}
         if len(candidates) == 0:
             return False
         else:
-            return candidates
+            return sorted(candidates , key = lambda x:x['Score'] , reverse=True)
+
+
+
 
     def get_candidates(self, sentences):
         """Main function, prepare sentences, parse sentence, extract gap
@@ -65,7 +105,8 @@ class GapSelection:
         candidates = []
         for sentence_id, sentence in sentences.items():
             tree = self._parse(sentence)
-            #print(tree)
+            for t in tree:
+                print(t)
             current_sentence_candidates = self._extract_gaps(
                 sentence, tree)  # build candidate questions
             if current_sentence_candidates == False:

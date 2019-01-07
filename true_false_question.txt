@@ -1,0 +1,170 @@
+(total 105 question)
+
+Sentence : Barack Hussein Obama II is an American politician serving as the 44th President of the United States
+Questions:
+John McCain is an American politician serving as the 44th President of the United States
+Barack Hussein Obama II is an African American politician serving as the 44th President of the United States
+Barack Hussein Obama II is an American President serving as the 44th President of the United States
+Barack Hussein Obama II is an American politician serving as the first President of the United States
+Barack Hussein Obama II is an American politician serving as the 44th president of the United States
+Barack Hussein Obama II is an American politician serving as the 44th President of the US
+
+__________________
+Sentence : Born in Honolulu, Hawaii, Obama is a graduate of Columbia University and Harvard Law School, where he served as president of the Harvard Law Review
+Questions:
+Born in Chicago, Hawaii, Obama is a graduate of Columbia University and Harvard Law School, where he served as president of the Harvard Law Review
+Born in Honolulu, Illinois, Obama is a graduate of Columbia University and Harvard Law School, where he served as president of the Harvard Law Review
+Born in Honolulu, Hawaii, Muammar Gaddafi is a graduate of Columbia University and Harvard Law School, where he served as president of the Harvard Law Review
+Born in Honolulu, Hawaii, Obama is a graduate of University of Chicago Law School and Harvard Law School, where he served as president of the Harvard Law Review
+Born in Honolulu, Hawaii, Obama is a graduate of Columbia University and Democratic Party, where he served as president of the Harvard Law Review
+Born in Honolulu, Hawaii, Obama is a graduate of Columbia University and Harvard Law School, where he served as attorney of the Harvard Law Review
+Born in Honolulu, Hawaii, Obama is a graduate of Columbia University and Harvard Law School, where he served as president of the Harvard Law School
+
+__________________
+Sentence :  In 2004, Obama received national attention during his campaign to represent Illinois in the United States Senate with his victory in the March Democratic Party primary, his keynote address at the Democratic National Convention in July, and his election to the Senate in November
+Questions:
+ In 2000, Obama received national attention during his campaign to represent Illinois in the United States Senate with his victory in the March Democratic Party primary, his keynote address at the Democratic National Convention in July, and his election to the Senate in November
+ In 2004, Mitt Romney received national attention during his campaign to represent Illinois in the United States Senate with his victory in the March Democratic Party primary, his keynote address at the Democratic National Convention in July, and his election to the Senate in November
+ In 2004, Obama received national attention during his campaign to represent Hawaii in the United States Senate with his victory in the March Democratic Party primary, his keynote address at the Democratic National Convention in July, and his election to the Senate in November
+ In 2004, Obama received national attention during his campaign to represent Illinois in the University of Chicago Law School with his victory in the March Democratic Party primary, his keynote address at the Democratic National Convention in July, and his election to the Senate in November
+ In 2004, Obama received national attention during his campaign to represent Illinois in the United States Senate with his victory in the Harvard Law School primary, his keynote address at the Democratic National Convention in July, and his election to the Senate in November
+ In 2004, Obama received national attention during his campaign to represent Illinois in the United States Senate with his victory in the March Republican Party primary, his keynote address at the Republican National Convention in July, and his election to the Senate in November
+ In 2004, Obama received national attention during his campaign to represent Illinois in the United States Senate with his victory in the March Democratic Party primary, his keynote address at the Democratic Tell Repeal Act in July, and his election to the Senate in November
+ In 2004, Obama received national attention during his campaign to represent Illinois in the United States Senate with his victory in the March Democratic Party primary, his keynote address at the Democratic National Convention in 2007, and his election to the Senate in November
+ In 2004, Obama received national attention during his campaign to represent Illinois in the United States House of Representatives with his victory in the March Democratic Party primary, his keynote address at the Democratic National Convention in July, and his election to the House of Representatives in November
+ In 2004, Obama received national attention during his campaign to represent Illinois in the United States Senate with his victory in the March Democratic Party primary, his keynote address at the Democratic National Convention in July, and his election to the Senate in January 20 , 2013
+
+__________________
+Sentence :  In January 2011, the Republicans regained control of the House of Representatives as the Democratic Party lost a total of 63 seats; and, after a lengthy debate over federal spending and whether or not to raise the nation's debt limit, Obama signed the Budget Control Act of 2011 and the American Taxpayer Relief Act of 2012
+Questions:
+ In November, the Republicans regained control of the House of Representatives as the Democratic Party lost a total of 63 seats; and, after a lengthy debate over federal spending and whether or not to raise the nation's debt limit, Obama signed the Budget Control Act of 2011 and the American Taxpayer Relief Act of 2012
+ In January 2011, the Taxpayer Relief Act regained control of the House of Representatives as the Democratic Party lost a total of 63 seats; and, after a lengthy debate over federal spending and whether or not to raise the nation's debt limit, Obama signed the Budget Control Act of 2011 and the American Taxpayer Relief Act of 2012
+ In January 2011, the Republicans regained control of the Sandy Hook Elementary School as the Democratic Party lost a total of 63 seats; and, after a lengthy debate over federal spending and whether or not to raise the nation's debt limit, Obama signed the Budget Control Act of 2011 and the American Taxpayer Relief Act of 2012
+ In January 2011, the Republicans regained control of the House of Representatives as the House of Representatives lost a total of 63 seats; and, after a lengthy debate over federal spending and whether or not to raise the nation's debt limit, Obama signed the Budget Control Act of 2011 and the American Taxpayer Relief Act of 2012
+ In January 2011, the Republicans regained control of the House of Representatives as the Democratic Party lost a total of three seats; and, after a lengthy debate over federal spending and whether or not to raise the nation's debt limit, Obama signed the Budget Control Act of 2011 and the American Taxpayer Relief Act of 2012
+ In January 2011, the Republicans regained control of the House of Representatives as the Democratic Party lost a total of 63 seats; and, after a lengthy debate over federal spending and whether or not to raise the nation's debt limit, Muammar Gaddafi signed the Budget Control Act of 2011 and the American Taxpayer Relief Act of 2012
+ In January 2012, the Republicans regained control of the House of Representatives as the Democratic Party lost a total of 63 seats; and, after a lengthy debate over federal spending and whether or not to raise the nation's debt limit, Obama signed the Budget Control Act of 2012 and the American Taxpayer Relief Act of 2012
+ In January 2011, the Republicans regained control of the House of Representatives as the Democratic Party lost a total of 63 seats; and, after a lengthy debate over federal spending and whether or not to raise the nation's debt limit, Obama signed the Budget Control Act of 2011 and the African American Taxpayer Relief Act of 2012
+ In January 2011, the Republicans regained control of the House of Representatives as the Democratic Party lost a total of 63 seats; and, after a lengthy debate over federal spending and whether or not to raise the nation's debt limit, Obama signed the Budget Control Act of 2011 and the American Great Recession of 2012
+ In January 2011, the Republicans regained control of the House of Representatives as the Democratic Party lost a total of 63 seats; and, after a lengthy debate over federal spending and whether or not to raise the nation's debt limit, Obama signed the Budget Control Act of 2011 and the American Taxpayer Relief Act of 2011
+
+__________________
+Sentence : He is the first African American to hold the office, as well as the first president born outside of the continental United States
+Questions:
+He is the 44th African American to hold the office, as well as the 44th president born outside of the continental United States
+He is the first American to hold the office, as well as the first president born outside of the continental United States
+He is the 44th African American to hold the office, as well as the 44th president born outside of the continental United States
+He is the first African American to hold the office, as well as the first organizer born outside of the continental United States
+He is the first African American to hold the office, as well as the first president born outside of the continental Afghanistan
+
+__________________
+Sentence :  Obama was reelected president in November 2012, defeating Republican nominee Mitt Romney, and was sworn in for a second term on January 20, 2013
+Questions:
+ Mitt Romney was reelected president in November 2012, defeating Republican nominee Mitt Romney, and was sworn in for a second term on January 20, 2013
+ Obama was reelected politician in November 2012, defeating Republican nominee Mitt Romney, and was sworn in for a second term on January 20, 2013
+ Obama was reelected president in November, defeating Republican nominee Mitt Romney, and was sworn in for a second term on January 20, 2013
+ Obama was reelected president in November 2012, defeating Democratic nominee Mitt Romney, and was sworn in for a second term on January 20, 2013
+ Obama was reelected president in November 2012, defeating Republican nominee Osama bin Laden, and was sworn in for a second term on January 20, 2013
+ Obama was reelected president in November 2012, defeating Republican nominee Mitt Romney, and was sworn in for two years term on January 20, 2013
+ Obama was reelected president in November 2012, defeating Republican nominee Mitt Romney, and was sworn in for a second term on January 20, 2013
+
+__________________
+Sentence :  He served three terms representing the 13th District in the Illinois Senate from 1997 to 2004, and ran unsuccessfully in the Democratic primary for the United States House of Representatives in 2000 against incumbent Bobby Rush
+Questions:
+ He served 63 terms representing the 13th District in the Illinois Senate from 1997 to 2004, and ran unsuccessfully in the Democratic primary for the United States House of Representatives in 2000 against incumbent Bobby Rush
+ He served three terms representing the Libya in the Illinois Senate from 1997 to 2004, and ran unsuccessfully in the Democratic primary for the United States House of Representatives in 2000 against incumbent Bobby Rush
+ He served three terms representing the 13th District in the University of Chicago Law School from 1997 to 2004, and ran unsuccessfully in the Democratic primary for the United States House of Representatives in 2000 against incumbent Bobby Rush
+ He served three terms representing the 13th District in the Illinois Senate from January 20 , 2009, and ran unsuccessfully in the Democratic primary for the United States House of Representatives in 2000 against incumbent Bobby Rush
+ He served three terms representing the 13th District in the Illinois Senate from 1997 to 2004, and ran unsuccessfully in the Republican primary for the United States House of Representatives in 2000 against incumbent Bobby Rush
+ He served three terms representing the 13th District in the Illinois Senate from 1997 to 2004, and ran unsuccessfully in the Democratic primary for the Russia House of Representatives in 2000 against incumbent Bobby Rush
+ He served three terms representing the 13th District in the Illinois Senate from 1997 to 2004, and ran unsuccessfully in the Democratic primary for the United States United States Senate in 2000 against incumbent Bobby Rush
+ He served three terms representing the 13th District in the Illinois Senate from 1997 to 2004, and ran unsuccessfully in the Democratic primary for the United States House of Representatives in 2011 against incumbent Bobby Rush
+ He served three terms representing the 13th District in the Illinois Senate from 1997 to 2004, and ran unsuccessfully in the Democratic primary for the United States House of Representatives in 2000 against incumbent Obama
+
+__________________
+Sentence :  During his first two years in office, Obama signed into law economic stimulus legislation in response to the Great Recession in the form of the American Recovery and Reinvestment Act of 2009 and the Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010
+Questions:
+ During his 44th two years in office, Obama signed into law economic stimulus legislation in response to the Great Recession in the form of the American Recovery and Reinvestment Act of 2009 and the Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010
+ During his first Nine months in office, Obama signed into law economic stimulus legislation in response to the Great Recession in the form of the American Recovery and Reinvestment Act of 2009 and the Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010
+ During his first two years in office, John McCain signed into law economic stimulus legislation in response to the Great Recession in the form of the American Recovery and Reinvestment Act of 2009 and the Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010
+ During his first two years in office, Obama signed into law economic stimulus legislation in response to the Defense of Marriage Act in the form of the American Recovery and Reinvestment Act of 2009 and the Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010
+ During his first two years in office, Obama signed into law economic stimulus legislation in response to the Great Recession in the form of the African American Recovery and Reinvestment Act of 2009 and the Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010
+ During his first two years in office, Obama signed into law economic stimulus legislation in response to the Great Recession in the form of the American Defense of Marriage Act and Reinvestment Act of 2009 and the Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010
+ During his first two years in office, Obama signed into law economic stimulus legislation in response to the Great Recession in the form of the American Recovery and Reinvestment Act of 1997 to 2004 and the Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010
+ During his first two years in office, Obama signed into law economic stimulus legislation in response to the Great Recession in the form of the American Recovery and Reinvestment Act of 2009 and the Recovery, Unemployment Insurance Reauthorization, and Job Creation Act of 2010
+ During his first two years in office, Obama signed into law economic stimulus legislation in response to the Great Recession in the form of the American Recovery and Reinvestment Act of 2009 and the Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 1992 and 2004
+
+__________________
+Sentence :  He worked as a civil rights attorney and taught constitutional law at University of Chicago Law School between 1992 and 2004
+Questions:
+ He worked as a civil rights president and taught constitutional law at University of Chicago Law School between 1992 and 2004
+ He worked as a civil rights attorney and taught constitutional law at Democratic Party between 1992 and 2004
+ He worked as a civil rights attorney and taught constitutional law at University of Chicago Law School between 2010
+
+__________________
+Sentence :  He then defeated Republican nominee John McCain in the general election, and was inaugurated as president on January 20, 2009
+Questions:
+ He then defeated Democratic nominee John McCain in the general election, and was inaugurated as president on January 20, 2009
+ He then defeated Republican nominee Osama bin Laden in the general election, and was inaugurated as president on January 20, 2009
+ He then defeated Republican nominee John McCain in the President election, and was inaugurated as president on January 20, 2009
+ He then defeated Republican nominee John McCain in the general election, and was inaugurated as general on January 20, 2009
+ He then defeated Republican nominee John McCain in the general election, and was inaugurated as president on January 20, 2009
+
+__________________
+Sentence :  He began his presidential campaign in 2007 and, after a close primary campaign against Hillary Clinton in 2008, he won sufficient delegates in the Democratic Party primaries to receive the presidential nomination
+Questions:
+ He began his presidential campaign in 2011 and, after a close primary campaign against Hillary Clinton in 2008, he won sufficient delegates in the Democratic Party primaries to receive the presidential nomination
+ He began his presidential campaign in 2007 and, after a close primary campaign against Obama in 2008, he won sufficient delegates in the Democratic Party primaries to receive the presidential nomination
+ He began his presidential campaign in 2007 and, after a close primary campaign against Hillary Clinton in 2004, he won sufficient delegates in the Democratic Party primaries to receive the presidential nomination
+ He began his presidential campaign in 2007 and, after a close primary campaign against Hillary Clinton in 2008, he won sufficient delegates in the University of Chicago Law School primaries to receive the presidential nomination
+
+__________________
+Sentence :  Other major domestic initiatives in his first term included the Patient Protection and Affordable Care Act, often referred to as "Obamacare"; the Dodd–Frank Wall Street Reform and Consumer Protection Act; and the Don't Ask, Don't Tell Repeal Act of 2010
+Questions:
+ Other major domestic initiatives in his 44th term included the Patient Protection and Affordable Care Act, often referred to as "Obamacare"; the Dodd–Frank Wall Street Reform and Consumer Protection Act; and the Don't Ask, Don't Tell Repeal Act of 2010
+ Other major domestic initiatives in his first term included the Patient Protection and LGBT Americans, often referred to as "Obamacare"; the Dodd–Frank Wall Street Reform and Consumer Protection Act; and the Don't Ask, Don't Tell Repeal Act of 2010
+ Other major domestic initiatives in his first term included the Patient Protection and Affordable Care Act, often referred to as "Obamacare"; the Dodd–Frank Wall Street Reform and Consumer Protection Act; and the Don't Ask, Don't Tell Repeal Act of 2010
+ Other major domestic initiatives in his first term included the Patient Protection and Affordable Care Act, often referred to as "Obamacare"; the Dodd–Frank Wall Street Reform and Consumer Protection Act; and the Don't Ask, Don't Recovery of 2010
+ Other major domestic initiatives in his first term included the Patient Protection and Affordable Care Act, often referred to as "Obamacare"; the Dodd–Frank Wall Street Reform and Consumer Protection Act; and the Don't Ask, Don't Tell Repeal Act of 2012
+
+__________________
+Sentence :  During his second term, Obama has promoted domestic policies related to gun control in response to the Sandy Hook Elementary School shooting, and has called for greater inclusiveness for LGBT Americans, while his administration has filed briefs which urged the Supreme Court to strike down part of the federal Defense of Marriage Act and state level same-sex marriage bans as unconstitutional
+Questions:
+ During his 44th term, Obama has promoted domestic policies related to gun control in response to the Sandy Hook Elementary School shooting, and has called for greater inclusiveness for LGBT Americans, while his administration has filed briefs which urged the Supreme Court to strike down part of the federal Defense of Marriage Act and state level same-sex marriage bans as unconstitutional
+ During his second term, Mitt Romney has promoted domestic policies related to gun control in response to the Sandy Hook Elementary School shooting, and has called for greater inclusiveness for LGBT Americans, while his administration has filed briefs which urged the Supreme Court to strike down part of the federal Defense of Marriage Act and state level same-sex marriage bans as unconstitutional
+ During his second term, Obama has promoted domestic policies related to gun control in response to the House of Representatives shooting, and has called for greater inclusiveness for LGBT Americans, while his administration has filed briefs which urged the Supreme Court to strike down part of the federal Defense of Marriage Act and state level same-sex marriage bans as unconstitutional
+ During his second term, Obama has promoted domestic policies related to gun control in response to the Sandy Hook Elementary School Iraq War, and has called for greater inclusiveness for LGBT Americans, while his administration has filed briefs which urged the Supreme Court to strike down part of the federal Defense of Marriage Act and state level same-sex marriage bans as unconstitutional
+ During his second term, Obama has promoted domestic policies related to gun control in response to the Sandy Hook Elementary School shooting, and has called for greater inclusiveness for Do n't Ask, while his administration has filed briefs which urged the Supreme Court to strike down part of the federal Defense of Marriage Act and state level same-sex marriage bans as unconstitutional
+ During his second term, Obama has promoted domestic policies related to gun control in response to the Sandy Hook Elementary School shooting, and has called for greater inclusiveness for LGBT Americans, while his administration has filed briefs which urged the United States Senate to strike down part of the federal Defense of Marriage Act and state level same-sex marriage bans as unconstitutional
+ During his second term, Obama has promoted domestic policies related to gun control in response to the Sandy Hook Elementary School shooting, and has called for greater inclusiveness for LGBT Americans, while his administration has filed briefs which urged the Supreme Court to strike down part of the federal Tax Relief and state level same-sex marriage bans as unconstitutional
+
+__________________
+Sentence : He was a community organizer in Chicago before earning his law degree
+Questions:
+He was a community president in Chicago before earning his law degree
+He was a community organizer in Honolulu before earning his law degree
+
+__________________
+Sentence :  Nine months after his inauguration, Obama was named the 2009 Nobel Peace Prize laureate
+Questions:
+ two years after his inauguration, Obama was named the 2009 Nobel Peace Prize laureate
+ Nine months after his inauguration, Hillary Clinton was named the 2009 Nobel Peace Prize laureate
+ Nine months after his inauguration, Obama was named the January 2011 Nobel Peace Prize laureate
+ Nine months after his inauguration, Obama was named the 2009 Tax Relief laureate
+
+__________________
+Sentence :  In foreign policy, Obama ended US military involvement in the Iraq War, increased US troop levels in Afghanistan, signed the New START arms control treaty with Russia, ordered US military involvement in Libya in opposition to Muammar Gaddafi, and ordered the military operation that resulted in the death of Osama bin Laden
+Questions:
+ In foreign policy, Hillary Clinton ended US military involvement in the Iraq War, increased US troop levels in Afghanistan, signed the New START arms control treaty with Russia, ordered US military involvement in Libya in opposition to Muammar Gaddafi, and ordered the military operation that resulted in the death of Osama bin Laden
+ In foreign policy, Obama ended Russia military involvement in the Iraq War, increased Russia troop levels in Afghanistan, signed the New START arms control treaty with Russia, ordered Russia military involvement in Libya in opposition to Muammar Gaddafi, and ordered the military operation that resulted in the death of Osama bin Laden
+ In foreign policy, Obama ended US military involvement in the shooting, increased US troop levels in Afghanistan, signed the New START arms control treaty with Russia, ordered US military involvement in Libya in opposition to Muammar Gaddafi, and ordered the military operation that resulted in the death of Osama bin Laden
+ In foreign policy, Obama ended Afghanistan military involvement in the Iraq War, increased Afghanistan troop levels in Afghanistan, signed the New START arms control treaty with Russia, ordered Afghanistan military involvement in Libya in opposition to Muammar Gaddafi, and ordered the military operation that resulted in the death of Osama bin Laden
+ In foreign policy, Obama ended US military involvement in the Iraq War, increased US troop levels in US, signed the New START arms control treaty with Russia, ordered US military involvement in Libya in opposition to Muammar Gaddafi, and ordered the military operation that resulted in the death of Osama bin Laden
+ In foreign policy, Obama ended US military involvement in the Iraq War, increased US troop levels in Afghanistan, signed the Tell Repeal Act START arms control treaty with Russia, ordered US military involvement in Libya in opposition to Muammar Gaddafi, and ordered the military operation that resulted in the death of Osama bin Laden
+ In foreign policy, Obama ended US military involvement in the Iraq War, increased US troop levels in Afghanistan, signed the New START arms control treaty with US, ordered US military involvement in Libya in opposition to Muammar Gaddafi, and ordered the military operation that resulted in the death of Osama bin Laden
+ In foreign policy, Obama ended United States military involvement in the Iraq War, increased United States troop levels in Afghanistan, signed the New START arms control treaty with Russia, ordered United States military involvement in Libya in opposition to Muammar Gaddafi, and ordered the military operation that resulted in the death of Osama bin Laden
+ In foreign policy, Obama ended US military involvement in the Iraq War, increased US troop levels in Afghanistan, signed the New START arms control treaty with Russia, ordered US military involvement in 13th District in opposition to Muammar Gaddafi, and ordered the military operation that resulted in the death of Osama bin Laden
+ In foreign policy, Obama ended US military involvement in the Iraq War, increased US troop levels in Afghanistan, signed the New START arms control treaty with Russia, ordered US military involvement in Libya in opposition to Bobby Rush, and ordered the military operation that resulted in the death of Osama bin Laden
+ In foreign policy, Obama ended US military involvement in the Iraq War, increased US troop levels in Afghanistan, signed the New START arms control treaty with Russia, ordered US military involvement in Libya in opposition to Muammar Gaddafi, and ordered the military operation that resulted in the death of John McCain
+
+__________________

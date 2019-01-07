@@ -142,6 +142,7 @@ class SentenceSelection:
             important_sentences(OrderedDict): OrderedDict of important sentences
             position:sentence, ordered by importance
         """
+        print('Preparing Sentences ')
         sentences = self._load_sentences(file_name)
 
         sentences_cleaned = self._clean_sentences(sentences)

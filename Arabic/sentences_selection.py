@@ -9,7 +9,7 @@ from collections import defaultdict, OrderedDict
 class SentenceSelection:
     """Select topically import sentences from given document"""
     def __init__(self):
-        self.ratio = 0.2
+        self.ratio = 0.1
         # self.ratio = 0.05
 
     def _load_sentences(self, file_name):
